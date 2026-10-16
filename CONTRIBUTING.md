@@ -17,3 +17,7 @@ Thanks for your interest! This is a learning journal, and contributions of any s
 - **Papers**: when suggesting a paper, include the title, authors, year, a link, and one or two sentences on why it helps a beginner.
 - **Credit sources** and don't copy text from books or papers.
 - Be kind and constructive. Everyone here is learning.
+
+## Licensing
+
+By contributing, you agree that your contributions are licensed under the project's [MIT License](LICENSE). You keep the copyright to your work.

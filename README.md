@@ -21,6 +21,7 @@ An open, community-friendly collection of notes, experiments and study material 
 ├── personal-notes/     # Informal, unpolished learning log
 ├── assets/             # Images and diagrams used in notes
 ├── CONTRIBUTING.md
+├── LICENSE
 ├── requirements.txt
 └── README.md
 ```
@@ -113,7 +114,7 @@ These are personal study notes, not authoritative teaching material. I try to be
 
 ## License
 
-To be decided (for example MIT for code and CC BY 4.0 for notes). Add a `LICENSE` file and update this section before publishing.
+Released under the [MIT License](LICENSE). Third-party audio, figures and papers referenced here keep their original licenses.
 
 ## Acknowledgements
 
