@@ -9,7 +9,6 @@ An open, community-friendly collection of notes, experiments and study material 
 - **Concept notes**: plain-language summaries of core ideas (sampling, spectrograms, pitch, prosody and more)
 - **Jupyter notebooks**: hands-on experiments you can run, tweak and break
 - **Papers and reading guides**: surveys and foundational papers, with notes on what to read first and what to skip
-- **Personal notes**: rough thoughts, "aha" moments and things that confused me
 
 ## Repository structure
 
@@ -17,8 +16,7 @@ An open, community-friendly collection of notes, experiments and study material 
 .
 ├── notes/              # Conceptual notes in Markdown, one topic per file (01-..., 02-...)
 ├── notebooks/          # Jupyter notebooks, named to match the notes
-├── data/               # Small, legally usable sample audio (link to big datasets instead)
-├── personal-notes/     # Informal, unpolished learning log
+├── data/               # Small sample audio and extracted feature tables (CSV)
 ├── assets/             # Images and diagrams used in notes
 ├── CONTRIBUTING.md
 ├── LICENSE
