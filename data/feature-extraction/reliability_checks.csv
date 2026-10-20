@@ -1,0 +1,9 @@
+check,result,why it matters
+Non-finite values in functionals,0,Should be 0
+Non-finite values in LLDs,0,"Should be 0 (openSMILE uses 0, not NaN, for unvoiced frames)"
+"Voiced frames, Praat",61.4%,Share of frames with an F0 value
+"Voiced frames, openSMILE",70.1%,Large disagreement with Praat -> voicing decision is uncertain
+Praat F0 octave-jump candidates,0 of 875 frame pairs,"Inspect these times; a few are common, many suggest a wrong pitch range"
+F0 within 5% of floor/ceiling,1.9%,High share -> adjust pitch_floor / pitch_ceiling
+Praat HNR frames = -200 dB (undefined),33.6%,Already converted to NaN in Section 4.4
+Voiced LLD frames behind jitter/shimmer means,698,"Computed from running speech, not a sustained vowel -> treat as rough"

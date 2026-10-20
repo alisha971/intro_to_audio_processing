@@ -1,0 +1,9 @@
+recording,turns,speakers,durations_s,delta_f0_st,delta_f0_vs_own_median_st,delta_loudness,delta_hnr_db,delta_alpha_ratio_db,flags,your_observation
+R1_pyannote,1 -> 2,speaker90 -> speaker91,0.4 / 0.8,,,,,,too_short | too_short,
+R1_pyannote,2 -> 3,speaker91 -> speaker90,0.8 / 1.7,,,,,,too_short,
+R1_pyannote,3 -> 4,speaker90 -> speaker91,1.7 / 1.1,,,,,,"too_short, overlap",
+R1_pyannote,4 -> 5,speaker91 -> speaker90,1.1 / 4.1,,,,,,"too_short, overlap | overlap",
+R1_pyannote,5 -> 6,speaker90 -> speaker91,4.1 / 3.4,2.155719757080078,3.268892288208008,0.012100368738174438,0.5003290176391602,-0.47605133056640625,overlap | overlap,
+R1_pyannote,6 -> 7,speaker91 -> speaker90,3.4 / 3.4,0.10796356201171875,-1.005208969116211,-0.04233799874782562,-0.5599088668823242,0.7979049682617188,overlap | overlap,
+R1_pyannote,7 -> 8,speaker90 -> speaker91,3.4 / 0.4,,,,,,"overlap | too_short, overlap",
+R1_pyannote,9 -> 10,speaker91 -> speaker90,6.7 / 2.1,2.1183815002441406,1.005208969116211,0.10300630331039429,-0.31348228454589844,3.7935523986816406,overlap | overlap,

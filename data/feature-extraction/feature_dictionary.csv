@@ -1,0 +1,9 @@
+column,unit_or_scale,value_libri1
+F0semitoneFrom27.5Hz_sma3nz_amean,semitones re 27.5 Hz,18.818953
+F0semitoneFrom27.5Hz_sma3nz_stddevNorm,ratio (std/mean),0.3695006
+loudness_sma3_amean,arbitrary loudness units,0.7579881
+HNRdBACF_sma3nz_amean,dB,1.3783985
+jitterLocal_sma3nz_amean,ratio (x100 = %),0.0347334
+shimmerLocaldB_sma3nz_amean,dB,1.2758956
+alphaRatioV_sma3nz_amean,dB,-16.117224
+VoicedSegmentsPerSec,count per second,2.8493896
