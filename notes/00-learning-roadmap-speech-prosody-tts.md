@@ -131,7 +131,7 @@ The mel spectrogram is used as the intermediate representation because it is com
 
 ### WaveNet
 
-WaveNet established neural waveform generation by modelling raw audio sample by sample. In early neural TTS it served as the vocoder that turns a mel spectrogram into a waveform. See [r9y9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder) for an open implementation.
+WaveNet ([arXiv:1609.03499](https://arxiv.org/abs/1609.03499)) established neural waveform generation by modelling raw audio sample by sample. In early neural TTS it served as the vocoder that turns a mel spectrogram into a waveform. See [r9y9/wavenet_vocoder](https://github.com/r9y9/wavenet_vocoder) for an open implementation.
 
 ## 5. Prosody in TTS: the one-to-many problem
 
@@ -187,7 +187,7 @@ text + situation + speaker state → distribution over behaviours
 
 ### StyleTTS 2
 
-*StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models* ([arXiv:2306.07691](https://arxiv.org/abs/2306.07691); code: [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2)). StyleTTS 2 models style as a latent random variable sampled by diffusion and uses WavLM, a large pretrained speech model, as a discriminator feature extractor in adversarial training.
+*StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models* ([arXiv:2306.07691](https://arxiv.org/abs/2306.07691); code: [yl4579/StyleTTS2](https://github.com/yl4579/StyleTTS2)). StyleTTS 2 models style as a latent random variable sampled by diffusion and uses WavLM ([arXiv:2110.13900](https://arxiv.org/abs/2110.13900)), a large pretrained speech model, as a discriminator feature extractor in adversarial training.
 
 ```text
 text → linguistic representation
